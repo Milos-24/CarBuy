@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="208.0" prefWidth="427.0" style="-fx-background-color: purple;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.CarDetailsController">
+   <children>
+      <TextField fx:id="brandTextField" layoutX="53.0" layoutY="32.0" prefHeight="25.0" prefWidth="83.0" promptText="Brand" />
+      <TextField fx:id="modelTextField" layoutX="155.0" layoutY="31.0" prefHeight="25.0" prefWidth="83.0" promptText="Model" />
+      <TextField fx:id="hpTextField" layoutX="53.0" layoutY="74.0" prefHeight="25.0" prefWidth="83.0" promptText="HP" />
+      <TextField fx:id="registrationTextField" layoutX="155.0" layoutY="74.0" prefHeight="25.0" prefWidth="83.0" promptText="Registration" />
+      <TextField fx:id="makeYearTextField" layoutX="257.0" layoutY="74.0" prefHeight="25.0" prefWidth="117.0" promptText="Make Year" />
+      <ComboBox fx:id="doorsComboBox" layoutX="53.0" layoutY="115.0" prefHeight="25.0" prefWidth="83.0" promptText="Doors" />
+      <ComboBox fx:id="seatsComboBox" layoutX="155.0" layoutY="115.0" prefHeight="25.0" prefWidth="83.0" promptText="Seats" />
+      <ComboBox fx:id="transmissionComboBox" layoutX="257.0" layoutY="115.0" prefHeight="25.0" prefWidth="117.0" promptText="Transmission" />
+      <ComboBox fx:id="typeComboBox" layoutX="257.0" layoutY="31.0" prefHeight="25.0" prefWidth="117.0" promptText="Type" />
+      <ComboBox fx:id="fuelComboBox" layoutX="53.0" layoutY="156.0" prefHeight="25.0" prefWidth="83.0" promptText="Fuel" />
+      <Button layoutX="328.0" layoutY="156.0" mnemonicParsing="false" onAction="#addButtonClick" prefHeight="25.0" prefWidth="46.0" style="-fx-background-color: white;" text="Add">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
